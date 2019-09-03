@@ -166,8 +166,8 @@ Once your device boots, the following actions should take place:
 
 If you encounter problems, refer to [FAQs](https://microsoft.github.io/azure-iot-developer-kit/docs/faq/) or reach out to us from the following channels:
 
-    * [Gitter.im](http://gitter.im/Microsoft/azure-iot-developer-kit)
-    * [Stackoverflow](https://stackoverflow.com/questions/tagged/iot-devkit)
+- [Gitter.im](http://gitter.im/Microsoft/azure-iot-developer-kit)
+- [Stackoverflow](https://stackoverflow.com/questions/tagged/iot-devkit)
 
 ## Next Steps
 
@@ -175,8 +175,8 @@ Now that you have learned prepare the DevKit to enroll a device securely to DPS 
 
 Advance to the other tutorials to learn:
 
-    * [Create and provision a simulated device](https://docs.microsoft.com/en-us/azure/iot-dps/quick-create-simulated-device)
-    * [Manage device enrollments](https://docs.microsoft.com/en-us/azure/iot-dps/how-to-manage-enrollments)
-    * [Revoke device access](https://docs.microsoft.com/en-us/azure/iot-dps/how-to-revoke-device-access-portal)
-    * [Use HSM with SDK](https://docs.microsoft.com/en-us/azure/iot-dps/how-to-revoke-device-access-portal)
-    * [Control access to Provisioning Service](https://docs.microsoft.com/en-us/azure/iot-dps/how-to-control-access)
+- [Create and provision a simulated device](https://docs.microsoft.com/en-us/azure/iot-dps/quick-create-simulated-device)
+- [Manage device enrollments](https://docs.microsoft.com/en-us/azure/iot-dps/how-to-manage-enrollments)
+- [Revoke device access](https://docs.microsoft.com/en-us/azure/iot-dps/how-to-revoke-device-access-portal)
+- [Use HSM with SDK](https://docs.microsoft.com/en-us/azure/iot-dps/how-to-revoke-device-access-portal)
+- [Control access to Provisioning Service](https://docs.microsoft.com/en-us/azure/iot-dps/how-to-control-access)
