@@ -9,7 +9,7 @@ products:
 - azure-iot-hub
 name: "Azure MXChip IoT DevKit DPS"
 description: "Use the Device Provisioning Service to automatically provision security enabled devices to IoT hub."
-urlFragment: "mxchip-iot-devkit-dps"
+urlFragment: "sample"
 ---
 
 ## Use Azure IoT Hub Device Provisioning Service auto-provisioning to register the MXChip IoT DevKit with IoT Hub
