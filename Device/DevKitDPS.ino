@@ -9,11 +9,11 @@
 #include "utility.h"
 
 // Input DPS instance info
-static const char* Global_Device_Endpoint = "global.azure-devices-provisioning.net";
-static const char* ID_Scope = "0ne0007EA79";
+static const char* Global_Device_Endpoint = "[Global_Device_Endpoint]";
+static const char* ID_Scope = "[ID_Scope]";
 
 // Input your preferrred deviceId and only alphanumeric, lowercase, and hyphen are supported with maximum 128 characters long.
-static const char* deviceId = "mynodedevice";
+static const char* deviceId = "";
 
 // Indicate whether WiFi is ready
 static bool hasWifi = false;

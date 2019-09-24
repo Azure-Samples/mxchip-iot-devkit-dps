@@ -75,7 +75,7 @@ Find **DevKit DPS** and click **Open Sample** button. A new VS Code window with 
     ![DPS Global Endpoint and ID Scope](media/devkit-dps/copy-endpoint.png)
 
 2. Open **DevKitDPS.ino**, Find and replace `[Global Device Endpoint]` and `[ID Scope]` with the values you just note down.
-    ![DPS Global Endpoint and ID Scope](media/devkit-dps/paste-endpoint-new.png)
+    ![DPS Global Endpoint and ID Scope](media/devkit-dps/paste-endpoint-deviceid.png)
 
 ## Save Unique Device Secret on STSAFE security chip
 
