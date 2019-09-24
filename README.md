@@ -75,7 +75,7 @@ Find **DevKit DPS** and click **Open Sample** button. A new VS Code window with 
     ![DPS Global Endpoint and ID Scope](media/devkit-dps/copy-endpoint.png)
 
 2. Open **DevKitDPS.ino**, Find and replace `[Global Device Endpoint]` and `[ID Scope]` with the values you just note down.
-    ![DPS Global Endpoint and ID Scope](media/devkit-dps/paste-endpoint.png)
+    ![DPS Global Endpoint and ID Scope](media/devkit-dps/paste-endpoint-new.png)
 
 ## Save Unique Device Secret on STSAFE security chip
 
@@ -100,11 +100,11 @@ Here you may need to close [serial monitor](https://github.com/microsoft/vscode-
 
 ## Build and upload the device code
 
-1. Open **DevKitDPS.ino** and find **registrationId**, give a new value. 
+1. Open **DevKitDPS.ino** and find **deviceId**, give a new value. 
 
-   The Registration ID has to use alphanumeric, lowercase, and hyphen combinations only with maximum 128 characters long. See [Manage device enrollments with Azure portal](https://docs.microsoft.com/en-us/azure/iot-dps/how-to-manage-enrollments) for more details.
+   The Device ID has to use alphanumeric, lowercase, and hyphen combinations only with maximum 128 characters long. See [Manage device enrollments with Azure portal](https://docs.microsoft.com/en-us/azure/iot-dps/how-to-manage-enrollments) for more details.
 
-   > You can leave the **registrationId** as blank, the application will generate one for you based on the MAC address and firmware version. If you want to customized it, 
+   > You can leave the **deviceId** as blank, the application will generate one for you based on the MAC address and firmware version. If you want to customized it, 
 
 2. Open the command palette and select **Azure IoT Device Workbench: Upload Device Code**. 
    ![IoT Device Workbench: Device - > Upload](media/iot-workbench-device-upload.png)
@@ -114,18 +114,18 @@ Here you may need to close [serial monitor](https://github.com/microsoft/vscode-
 
 4. The DevKit reboots and starts running the code.
 
-5. If you  leave the **registrationId** as blank, please note down **DevKit MAC Address** and **DevKit Firmware Version** value from serial monitor.
+5. If you  leave the **deviceId** as blank, please note down **DevKit MAC Address** and **DevKit Firmware Version** value from serial monitor.
    ![Firmware version](media/devkit-dps/copy-mac-address.png)
 
 ## Generate X.509 certificate
 
 Open integrated terminal in Visual Studio Code and run **dps_cert_gen in tool folder**. Input information just noted down.
 
-1. Specified the **registrationId**
+1. Specified the **deviceId**
 
    ![Generate X.509 certificate](media/devkit-dps/generate-cert-2.png)
 
-2. Not specified the **registrationId**
+2. Not specified the **deviceId**
 
    ![Generate X.509 certificate](media/devkit-dps/generate-cert-1.png)
 
