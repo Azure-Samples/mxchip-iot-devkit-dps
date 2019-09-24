@@ -9,11 +9,11 @@
 #include "utility.h"
 
 // Input DPS instance info
-static const char* Global_Device_Endpoint = "[Global_Device_Endpoint]";
-static const char* ID_Scope = "[ID_Scope]";
+static const char* Global_Device_Endpoint = "global.azure-devices-provisioning.net";
+static const char* ID_Scope = "0ne0007EA79";
 
-// Input your preferrred registrationId and only alphanumeric, lowercase, and hyphen are supported with maximum 128 characters long.
-static const char* registrationId = "[registrationId]";
+// Input your preferrred deviceId and only alphanumeric, lowercase, and hyphen are supported with maximum 128 characters long.
+static const char* deviceId = "mynodedevice";
 
 // Indicate whether WiFi is ready
 static bool hasWifi = false;
@@ -121,7 +121,7 @@ void setup() {
   Screen.print(3, " > DPS");
 
   // Transfer control to firmware
-  if(DevkitDPSClientStart(Global_Device_Endpoint, ID_Scope, registrationId))
+  if(DevkitDPSClientStart(Global_Device_Endpoint, ID_Scope, deviceId))
   {
     Screen.print(2, "DPS connected!\r\n");
   }
