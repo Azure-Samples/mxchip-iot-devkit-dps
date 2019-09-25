@@ -12,8 +12,8 @@
 static const char* Global_Device_Endpoint = "[Global_Device_Endpoint]";
 static const char* ID_Scope = "[ID_Scope]";
 
-// Input your preferrred deviceId and only alphanumeric, lowercase, and hyphen are supported with maximum 128 characters long.
-static const char* deviceId = "";
+// Input your preferrred registrationId and only alphanumeric, lowercase, and hyphen are supported with maximum 128 characters long.
+static const char* registrationId = "[registrationId]";
 
 // Indicate whether WiFi is ready
 static bool hasWifi = false;
@@ -121,7 +121,7 @@ void setup() {
   Screen.print(3, " > DPS");
 
   // Transfer control to firmware
-  if(DevkitDPSClientStart(Global_Device_Endpoint, ID_Scope, deviceId))
+  if(DevkitDPSClientStart(Global_Device_Endpoint, ID_Scope, registrationId))
   {
     Screen.print(2, "DPS connected!\r\n");
   }
