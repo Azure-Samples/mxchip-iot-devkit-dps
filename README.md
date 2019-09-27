@@ -25,7 +25,7 @@ The [MXChip IoT DevKit](https://aka.ms/iot-devkit) is an all-in-one Arduino-comp
 
 ## What you need
 
-Finish the [Getting Started Guide](https://docs.microsoft.com/en-us/samples/azure-samples/mxchip-iot-devkit-get-started/mxchip-iot-devkit-get-started/) to:
+Finish the [Getting Started Guide](https://docs.microsoft.com/en-us/samples/azure-samples/mxchip-iot-devkit-get-started/sample/) to:
 
     * Have your IoT DevKit connected to Wi-Fi.
     * Prepare the development environment.
