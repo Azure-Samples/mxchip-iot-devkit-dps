@@ -45,7 +45,7 @@ Even if you do have an active Azure subscription but have not yet created an ins
 ### Start VS Code
 
    * Start Visual Studio Code.
-   * Make sure [Azure IoT Device Workbench](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-iot-workbench) is installed.
+   * Make sure [Azure IoT Tools](https://aka.ms/azure-iot-tools) is installed.
    * Connect IoT DevKit to your PC.
 
 ### Open Azure IoT Device Workbench Examples
