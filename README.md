@@ -1,8 +1,7 @@
 ---
 page_type: sample
 languages:
-- javascript
-- nodejs
+- c
 - cpp
 products:
 - azure
@@ -27,29 +26,27 @@ The [MXChip IoT DevKit](https://aka.ms/iot-devkit) is an all-in-one Arduino-comp
 
 Finish the [Getting Started Guide](https://docs.microsoft.com/en-us/samples/azure-samples/mxchip-iot-devkit-get-started/sample/) to:
 
-    * Have your IoT DevKit connected to Wi-Fi.
-    * Prepare the development environment.
+   * Have your IoT DevKit connected to Wi-Fi.
+   * Prepare the development environment.
 
 An active Azure subscription. If you do not have one, you can register via one of these methods:
 
-    * Activate a [free 30-day trial Microsoft Azure account](https://azure.microsoft.com/free/).
-    * If you are an MSDN or Visual Studio subscriber
-    Claim your [Azure credit](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/).
+   * Activate a [free 30-day trial Microsoft Azure account](https://azure.microsoft.com/free/).
+   * If you are an MSDN or Visual Studio subscriber. Claim your [Azure credit](https://azure.microsoft.com/pricing/member-offers/msdn-benefits-details/).
 
 ## Even if you have a subscription
 
 Even if you do have an active Azure subscription but have not yet created an instance of the Device Provisioning service
 
-    * Create and link IoT Hub with Device Provisioning Service instance with
-    [Set up auto provisioning](https://docs.microsoft.com/en-us/azure/iot-dps/quick-setup-auto-provision).
+   * Create and link IoT Hub with Device Provisioning Service instance with [Set up auto provisioning](https://docs.microsoft.com/en-us/azure/iot-dps/quick-setup-auto-provision).
 
 ## Open the project folder
 
 ### Start VS Code
 
-    * Start Visual Studio Code.
-    * Make sure [Azure IoT Device Workbench](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-iot-workbench) is installed.
-    * Connect IoT DevKit to your PC.
+   * Start Visual Studio Code.
+   * Make sure [Azure IoT Tools](https://aka.ms/azure-iot-tools) is installed.
+   * Connect IoT DevKit to your PC.
 
 ### Open Azure IoT Device Workbench Examples
 
